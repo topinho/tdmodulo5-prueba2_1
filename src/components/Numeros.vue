@@ -86,7 +86,7 @@ export default {
         })
     },
     dame_ubicacion(n) {
-      return 'position: relative;' + 'top: ' + n.x + 'px;' + 'left: ' + n.y + 'px;'
+      return 'position: absolute;' + 'top: ' + n.x + 'px;' + 'left: ' + n.y + 'px;'
     },
     dame_un_numero(max) {
       return Math.floor(Math.random() * max)
