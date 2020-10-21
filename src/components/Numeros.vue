@@ -6,7 +6,6 @@
     <br>
     <div v-for="n of numeros" :key="n.id">
       <div class="numero" :style="dame_ubicacion(n)">
-      <!--<div class="numero" :style="{'top': n.x + 'px', 'left': n.y + 'px'}">-->
         {{ n.numero }}
       </div>
     </div>
